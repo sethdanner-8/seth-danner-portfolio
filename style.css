@@ -596,5 +596,14 @@ body {
         align-items: flex-start;
         gap: 15px;
     }
+    .project-image {
+        height: auto;
+    }
+    .project-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+    }
 
 }
