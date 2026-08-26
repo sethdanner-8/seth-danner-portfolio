@@ -5,6 +5,8 @@
 }
 html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 body {
     background: #09090b;
@@ -630,5 +632,59 @@ body {
         width: 100%;
         height: auto !important;
         display: block;
+    }
+    .navbar {
+        padding: 20px 6%;
+    }
+    .nav-links {
+        gap: 20px;
+    }
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+    .hero {
+        min-height: 100svh;
+        justify-content: flex-start;
+        padding: 110px 8% 60px;
+    }
+    .intro {
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    .hero h1 {
+        font-size: clamp(3.2rem, 8vw, 5rem);
+        letter-spacing: -2px;
+    }
+    .her h2 {
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        margin-top: 15px;
+    }
+    .hero-description {
+        max-width: 520px;
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-top: 20px;
+    }
+    .hero-buttons {
+        margin-top: 25px;
+    }
+    .hero-buttons a {
+        padding: 11px 20px;
+    }
+    .section-title {
+        font-size: 2.4rem;
+    }
+    .project-type {
+        font-size: 0.75rem;
+    }
+    .project-info h3 {
+        font-size: 1.8rem;
+    }
+    .project-description {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    .project-tech span {
+        font-size: 0.75rem;
     }
 }
