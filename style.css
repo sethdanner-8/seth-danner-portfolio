@@ -609,3 +609,26 @@ body {
     }
 
 }
+@media (max-width: 950px) and (orientation: landscape) {
+    .projects {
+        padding: 70px 6%;
+    }
+    .project-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto !important;
+        align-items: start;
+        gap: 30px;
+    }
+    .project-image {
+        width: 100%;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+    }
+    .project-image img {
+        width: 100%;
+        height: auto !important;
+        display: block;
+    }
+}
