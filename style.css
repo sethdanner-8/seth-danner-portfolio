@@ -595,12 +595,13 @@ body {
     }
     .project-image {
         height: auto;
+        padding: 0;
+        overflow: hidden;
     }
     .project-image img {
         width: 100%;
         height: auto;
         display: block;
-        object-fit: contain;
     }
 
 }
