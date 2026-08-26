@@ -551,6 +551,8 @@ body {
     }
     .project-card {
         grid-template-columns: 1fr;
+        grid-template-rows: auto auto !important;
+        align-items: start;
         gap: 30px;
     }
     .about {
@@ -595,19 +597,15 @@ body {
     }
     .project-image {
         width: 100%;
-        height: fit-content !important;
+        height: auto !important;
         min-height: 0 !important;
-        max-height: none !important;
         padding: 0 !important;
-        align-self: start;
         overflow: hidden;
     }
     .project-image img {
         width: 100%;
         height: auto !important;
-        max-height: none !important;
         display: block;
-        object-fit: contain;
     }
 
 }
