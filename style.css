@@ -621,18 +621,6 @@ body {
         align-items: start;
         gap: 30px;
     }
-    .project-image {
-        width: 100%;
-        height: auto !important;
-        min-height: 0 !important;
-        padding: 0 !important;
-        overflow: hidden;
-    }
-    .project-image img {
-        width: 100%;
-        height: auto !important;
-        display: block;
-    }
     .navbar {
         padding: 20px 6%;
     }
@@ -687,4 +675,60 @@ body {
     .project-tech span {
         font-size: 0.75rem;
     }
+    .project-card {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 25px;
+        height: auto !important;
+    }
+
+    .project-image {
+        width: 100%;
+        height: auto !important;
+        min-height: 0 !important;
+        padding: 0 !important;
+        overflow: hidden;
+        position: static !important;
+    }
+
+    .project-image img {
+        width: 100%;
+        height: auto !important;
+        object-fit: contain;
+        display: block;
+    }
+
+    .project-info {
+        width: 100%;
+        position: static !important;
+        margin: 0 !important;
+        transform: none !important;
+    }
+
+    .project-type {
+        font-size: 0.7rem;
+    }
+
+    .project-info h3 {
+        font-size: 1.55rem;
+        margin-bottom: 12px;
+    }
+
+    .project-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .project-tech {
+        gap: 8px;
+       margin-bottom: 20px;
+    }
+
+    .project-tech span {
+        font-size: 0.75rem;
+        padding: 6px 10px;
+    }
+
 }
