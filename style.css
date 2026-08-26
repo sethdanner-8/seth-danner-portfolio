@@ -553,9 +553,6 @@ body {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-    .project-image {
-        min-height: 250px;
-    }
     .about {
         padding: 90px 6%;
     }
