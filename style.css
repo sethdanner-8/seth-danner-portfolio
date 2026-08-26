@@ -594,14 +594,20 @@ body {
         gap: 15px;
     }
     .project-image {
-        height: auto;
-        padding: 0;
+        width: 100%;
+        height: fit-content !important;
+        min-height: 0 !important;
+        max-height: none !important;
+        padding: 0 !important;
+        align-self: start;
         overflow: hidden;
     }
     .project-image img {
         width: 100%;
-        height: auto;
+        height: auto !important;
+        max-height: none !important;
         display: block;
+        object-fit: contain;
     }
 
 }
