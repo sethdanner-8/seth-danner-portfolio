@@ -627,6 +627,13 @@ body {
         width: 100%;
         justify-content: space-around;
         gap: 0;
+        padding: 8px 20px;
+        border-radius: 20px;
+        transition: 0.3s ease;
+    }
+    .nav-links a:hover {
+        color: #8b5cf6;
+        background: rgba(139, 92, 246, 0.1);
     }
 
 }
