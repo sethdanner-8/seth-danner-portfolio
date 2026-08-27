@@ -758,5 +758,5 @@ body {
 }
 .nav-links a:hover {
     color: #8b5cf6 !important;
-    background: rgba(139, 92, 246, 0.12)
+    background: rgba(139, 92, 246, 0.12) !important;
 }
