@@ -753,3 +753,10 @@ body {
     }
 
 }
+.nav-links {
+    background: rgba(20, 20, 24, 0.88) !important;
+}
+.nav-links a:hover {
+    color: #8b5cf6 !important;
+    background: rgba(139, 92, 246, 0.12)
+}
