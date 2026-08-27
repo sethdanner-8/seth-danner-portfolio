@@ -84,6 +84,10 @@ body {
     align-items: center;
     padding: 30px clamp(30px, 6vw, 100px);
     z-index: 100;
+    background: rgba(9, 9, 11, 0.82);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 .nav-logo {
     color: white;
