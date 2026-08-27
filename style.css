@@ -616,6 +616,18 @@ body {
         height: auto !important;
         display: block;
     }
+    .nav-logo {
+        display: none;
+    }
+    .navbar {
+        justify-content: center;
+        padding: 20px 5%;
+    }
+    .nav-links {
+        width: 100%;
+        justify-content: space-around;
+        gap: 0;
+    }
 
 }
 @media (max-width: 950px) and (orientation: landscape) {
