@@ -74,6 +74,20 @@ body {
     transform: translateY(-3px);
     border-color: #8b5cf6;
 }
+.resume-btn {
+    color: #8b5cf6;
+    border: 1px solid #8b5cf6;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.resume-btn:hover {
+    color: white;
+    background: #8b5cf6;
+    transform: translateY(-3px);
+}
 .navbar {
     position: fixed;
     top: 0;
