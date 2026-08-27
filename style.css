@@ -75,8 +75,8 @@ body {
     border-color: #8b5cf6;
 }
 .resume-btn {
-    color: #8b5cf6;
-    border: 1px solid #8b5cf6;
+    color: white;
+    border: 1px solid #3f3f46;
     padding: 14px 25px;
     border-radius: 8px;
     text-decoration: none;
@@ -646,6 +646,26 @@ body {
         width: 100%;
         justify-content: space-around;
         gap: 0;
+    }
+    .hero-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+    .primary-btn,
+    .secondary-btn {
+        width: 100%;
+        padding: 14px 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .resume-btn {
+        grid-column: 1 / -1;
+        border: none;
+        padding: 8px 0;
+        width: fit-content;
+        font-size: 1rem;
+        color: #8b5cf6;
     }
 
 }
