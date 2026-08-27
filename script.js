@@ -70,3 +70,11 @@ function revealSkills() {
 window.addEventListener("scroll", revealSkills);
 
 revealSkills();
+function refreshLayout() {
+    document.body.style.display = "none";
+    document.body.offsetHeight;
+    document.body.style.display = "";
+}
+window.addEventListener("orientationchange", () => {
+    setTimeout(refreshLayout, 200);
+});
