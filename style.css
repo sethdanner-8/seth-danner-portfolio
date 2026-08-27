@@ -112,7 +112,7 @@ body {
     padding: 8px 12px;
     border-radius: 20px;
 }
-.navlinks a:hover {
+.nav-links a:hover {
     color: #8b5cf6;
     background: rgba(139, 92, 246, 0.1);
 }
@@ -759,4 +759,74 @@ body {
 .nav-links a:hover {
     color: #8b5cf6 !important;
     background: rgba(139, 92, 246, 0.12) !important;
+}
+.site-loader {
+    position: fixed;
+    inset: 0;
+    background: #09090b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: loaderExit 0.5s ease 1.25s forwards;
+}
+.loader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loader-logo {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: white;
+    opacity: 0;
+    transform: scale(0.9);
+    animation: logoIntro 0.45s ease forwards;
+}
+.loader-line {
+    width: 130px;
+    height: 2px;
+    margin-top: 18px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.loader-line-fill {
+    width: 0%;
+    height: 100%;
+    background: #8b5cf6;
+    border-radius: 10px;
+    animation: lineLoad 0.65s ease 0.3s forwards;
+}
+.loader-text {
+    margin-top: 14px;
+    color: #71717a;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    opacity: 0;
+    animation: loaderText 0.4s ease 0.65s forwards;
+}
+@keyframes logoIntro {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes lineLoad {
+    to {
+        width: 100%;
+    }
+}
+@keyframes loaderText {
+    to {
+        opacity: 1;
+    }
+}
+@keyframes loaderExit {
+    to {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
 }

@@ -78,3 +78,7 @@ function refreshLayout() {
 window.addEventListener("orientationchange", () => {
     setTimeout(refreshLayout, 200);
 });
+const siteLoader = document.getElementById(site-loader);
+setTimeout(() => {
+    siteLoader.remove();
+}, 1800);
