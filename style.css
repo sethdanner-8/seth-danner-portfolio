@@ -649,26 +649,26 @@ body {
     }
     .hero-buttons {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: auto auto;
         gap: 12px;
+        justify-content: start;
     }
-    .primary-btn,
-    .secondary-btn {
-        width: 100%;
-        padding: 12px 8px;
-        font-size: 0.95rem;
-        text-align: center;
+    .hero-buttons .primary-btn,
+    .hero-buttons .secondary-btn {
+        width: auto !important;
+        padding: 10px 18px !important;
+        font-size: 0.9rem !important;
     }
-    .resume-btn {
+    .hero-buttons .resume-btn {
         grid-column: 1 / -1;
-        border: #8b5cf6;
-        padding: 10px 18;
-        width: fit-content;
-        font-size: 1rem;
-        color: #8b5cf6;
+        width: auto !important;
         justify-self: start;
+        padding: 9px 16px !important;
+        font-size: 0.9rem !important;
+        color: #8b5cf6;
+        background: transparent;
+        border: 1px solid #8b5cf6 !important;
         border-radius: 8px;
-        text-decoration: none;
     }
 
 
